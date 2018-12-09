@@ -1,0 +1,81 @@
+*{
+box-sizing:border-box;
+}
+
+/*Inicio Header*/
+
+.bg-1{
+    background-image: url(static/img/bg-1.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size:cover;
+    color:#FFF;
+}
+
+.hero-slides-content{
+    width:100%;
+    margin-top:200px;
+    font-weight:bold;
+}
+
+
+.hero-slides-content h6 {
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.hero-slides-content h2 {
+    position: relative;
+    z-index: 1;
+    font-size: 60px;
+    color: #ffffff;
+    margin-bottom: 0;
+    font-weight: 400;
+    display: block;
+    text-transform: capitalize;
+    letter-spacing: 25px;
+    overflow: hidden;
+}
+
+
+/*Fim Header*/
+
+/*Primeira Seção Inicio*/
+
+.section-heading {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.section-heading p {
+    color: #5f5f5f;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.section-heading.style-2 h2 {
+    font-size: 30px;
+}
+.section-heading h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-bottom: 0;
+}
+
+ .album-info {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+/*Primeira Seção Fim*/
