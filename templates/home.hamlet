@@ -1,92 +1,265 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <title> Music Time! Monte sua playlist com as músicas do momento
+        <title> This is the champions
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <meta charset= UTF-8>
         
-    <!--Header inicio-->
+    <!--Header inicio
     <header>    
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed">
-            <a class="navbar-brand" href="#">Top navbar
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon">
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Disabled
-                <form class="form-inline mt-2 mt-md-0">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search
-    
+        
                 
     <!--Imagem do header-->
     <section>
         <div class="container-fluid">
             <div class="row">
                 <div class="bg-1">
+                    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed">
+                        <a class="navbar-brand" href="#">Top navbar
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">
+                        <div class="collapse navbar-collapse" id="navbarCollapse">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Home <span class="sr-only">(current)
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Link
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" href="#">Disabled
+                            <form class="form-inline mt-2 mt-md-0">
+                                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search
+                
                     <div class="hero-slides-content text-center">
-                        <h6>Latest album
-                        <h2>Beyond Time <span>
+                        <h6>This is the Champions
+                        <h2>Com grandes equipe<span>
                         
                     
     <!--Fim do Header-->
     
     <!--Primeira Seção-->
     <section>
-        <div class="container-fluid">
+        <div class="container-fluid tabela-jogos">
             <div class="row">
                 <div class="section-heading col-md-12">
-                        <p> Olá
-                        <h2> Funcionou
-                  
-                            
+                        <p> Bem vindo ao The Champions
+                        <h2> Confira o que você pode fazer no site
+                        
+                        
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                <div class="col-lg-4">
+                    <img class="img-fluid" src="static/img/stadium-uefa2.jpg" alt="">
 
-              <div class="row alinha-conteudo">
-                    <div class="col-md-4">
-                        <div class="card shadow-sm">
-                            <img src="static/img/album3.png" alt="">
-                            <div class="card-body">
-                                <div class="album-info">
-                                    <a href="#">
-                                    <h5>Imagine Dragons
-                                    <p>Origins
-                                    
-                    <div class="col-md-4">
-                        <div class="card shadow-sm">
-                            <img src="static/img/album4.jpg" alt="">
-                            <div class="card-body">
-                                <div class="album-info">
-                                    <a href="#">
-                                    <h5>The Beatles
-                                    <p>Abbey Road
-                                    
-                    <div class="col-md-4">
-                        <div class="card shadow-sm">
-                            <img src="static/img/album7.jpg" alt="">
-                            <div class="card-body">
-                                <div class="album-info">
-                                    <a href="#">
-                                    <h5>Skrillex
-                                    <p>Recess
+                <div class="col-lg-4">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4>Jogos
+                                <p class="mb-0">An example of where you can put an image of a project, or anything else, along with a description.
+                                <hr class="d-none d-lg-block mb-0 ml-0">
+              
+            
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+            
+                <div class="col-lg-4">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4>Estatísticas
+                                <p class="mb-0">An example of where you can put an image of a project, or anything else, along with a description.
+                                <hr class="d-none d-lg-block mb-0 ml-0">
+            
+                <div class="col-lg-4">
+                    <img class="img-fluid" src="static/img/bola-uefa2.jpg" alt="">
                     
+                    
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                <div class="col-lg-4">
+                    <img class="img-fluid" src="static/img/uefa-2019-final.jpg" alt="">
+
+                <div class="col-lg-4">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4>Classificação
+                                <p class="mb-0">An example of where you can put an image of a project, or anything else, along with a description.
+                                <hr class="d-none d-lg-block mb-0 ml-0">
+
     <!--Fim da Primeira Seção-->
                     
-    <!--Segunda Seção Inicio
+    <!--Segunda Seção Inicio-->
     <section>
         <div class="container-fluid">
-            <div class="row featurette">
+            <div class="row">
                 <div class="bg-2">
-                    <div class="col-md-7 order-md-2">
-                        <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-                        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                  
-                    <div class="col-md-5 order-md-1">
-                        <img class="featurette-image img-fluid mx-auto" src="static/img/album1.jpg">-->
+                    <div class="section-heading col-md-12">
+                        <h2 class="move-h2"> Classificação
+                        <br>
                         
-    
+                        <div class="col-md-3">
+                            <p class="group-name js-group-name">Grupo A
+                            <table class="table table--standings grupos" data-group="2006091">
+                                <thead>
+                                    <tr>
+                                        <th class="table_team-name">
+                                        <th class="table_team-played" title="Jogos">J
+                                                                                                              <th class="table_team-points" title="Pontos">Pts
+                                <tbody>
+                                    <tr data-is-current-team="0" data-team-id="50124" data-rank="1">
+                                    <td class="table_team-name">
+                                        <a href="/uefachampionsleague/season=2019/clubs/club=50124/index.html" class="table_team-name_block" title="Atlético">
+                                        <span class="club-logo team_50124" style="background-image:url(../templates/static/img/times/atlMadri-logo.png)" title="Club Atlético de Madrid">
+                                        <span class="team-code">ATL 
+                                        <span class="team-name">Club Atlético de Madrid
+                                    <td class="table_team-played js-played">5
+                                                                                                                          <td class="table_team-points js-points">12
+                                    <tr data-is-current-team="0" data-team-id="52758" data-rank="2">
+                                    <td class="table_team-name">
+                                        <a href="/uefachampionsleague/season=2019/clubs/club=52758/index.html" class="table_team-name_block" title="Dortmund">
+                                        <span class="club-logo team_52758" style="background-image:url('https://img.uefa.com/imgml/TP/teams/logos/140X140/52758.png')" title="Borussia Dortmund">
+                                        <span class="team-code">BVB
+                                        <span class="team-name">Borussia Dortmund
+                                    <td class="table_team-played js-played">5
+                                                                                                                          <td class="table_team-points js-points">10
+                                    <tr data-is-current-team="0" data-team-id="50043" data-rank="3">
+                                    <td class="table_team-name">
+                                        <a href="/uefachampionsleague/season=2019/clubs/club=50043/index.html" class="table_team-name_block" title="Club Brugge">
+                                        <span class="club-logo team_50043" style="background-image:url('https://img.uefa.com/imgml/TP/teams/logos/140X140/50043.png')" title="Club Brugge">
+                                        <span class="team-code">BRU
+                                        <span class="team-name">Club Brugge
+                                    <td class="table_team-played js-played">5
+                                                                                                                          <td class="table_team-points js-points">5
+                                    <tr data-is-current-team="0" data-team-id="50023" data-rank="4">
+                                        <td class="table_team-name">
+                                            <a href="/uefachampionsleague/season=2019/clubs/club=50023/index.html" class="table_team-name_block" title="Monaco">
+                                            <span class="club-logo team_50023" style="background-image:url('https://img.uefa.com/imgml/TP/teams/logos/140X140/50023.png')" title="AS Monaco FC">
+                                            <span class="team-code">MON
+                                            <span class="team-name">AS Monaco FC
+                                        <td class="table_team-played js-played">5
+                                                                                                                              <td class="table_team-points js-points">1                                        
+                        <div class="col-md-3">
+                            <p class="group-name js-group-name">Grupo B
+                                <table class="table table--standings grupos" data-group="2006091">
+                                    <thead>
+                                        <tr>
+                                            <th class="table_team-name">
+                                            <th class="table_team-played" title="Jogos">J
+                                                                                                                  <th class="table_team-points" title="Pontos">Pts
+                                    <tbody>
+                                        <tr data-is-current-team="0" data-team-id="50124" data-rank="1">
+                                        <td class="table_team-name">
+                                            <a href="/uefachampionsleague/season=2019/clubs/club=50124/index.html" class="table_team-name_block" title="Atlético">
+                                            <span class="club-logo team_50124" style="background-image:url(../templates/static/img/times/atlMadri-logo.png)" title="Barcelona">
+                                            <span class="team-code">FCB
+                                            <span class="team-name">FC Barcelona
+                                        <td class="table_team-played js-played">5
+                                                                                                                                <td class="table_team-points js-points">13
+                                        <tr data-is-current-team="0" data-team-id="52758" data-rank="2">
+                                        <td class="table_team-name">
+                                            <a href="/uefachampionsleague/season=2019/clubs/club=52758/index.html" class="table_team-name_block" title="Dortmund">
+                                            <span class="club-logo team_52758" style="background-image:url('https://img.uefa.com/imgml/TP/teams/logos/140X140/52758.png')" title="Tottenham Hotspur FC">
+                                            <span class="team-code">TOT
+                                            <span class="team-name">Tottenham Hotspur FC
+                                        <td class="table_team-played js-played">5
+                                                                                                                              <td class="table_team-points js-points">7
+                                        <tr data-is-current-team="0" data-team-id="50043" data-rank="3">
+                                        <td class="table_team-name">
+                                            <a href="/uefachampionsleague/season=2019/clubs/club=50043/index.html" class="table_team-name_block" title="Club Brugge">
+                                            <span class="club-logo team_50043" style="background-image:url('https://img.uefa.com/imgml/TP/teams/logos/140X140/50043.png')" title="FC Internazionale Milano">
+                                            <span class="team-code">INT
+                                            <span class="team-name">FC Internazionale Milano
+                                        <td class="table_team-played js-played">5
+                                                                                                                              <td class="table_team-points js-points">7
+                                        <tr data-is-current-team="0" data-team-id="50023" data-rank="4">
+                                            <td class="table_team-name">
+                                                <a href="/uefachampionsleague/season=2019/clubs/club=50023/index.html" class="table_team-name_block" title="Monaco">
+                                                <span class="club-logo team_50023" style="background-image:url('https://img.uefa.com/imgml/TP/teams/logos/140X140/50023.png')" title="PSV Eindhoven">
+                                                <span class="team-code">PSV
+                                                <span class="team-name">PSV Eindhoven
+                                            <td class="table_team-played js-played">5
+                                                                                                                              <td class="table_team-points js-points">1
+                                            
+                        <div class="col-md-3">
+                            <p class="group-name js-group-name">Grupo C
+                                <table class="table table--standings grupos" data-group="2006091">
+                                    <thead>
+                                        <tr>
+                                            <th class="table_team-name">
+                                            <th class="table_team-played" title="Jogos">J
+                                                                                                                  <th class="table_team-points" title="Pontos">Pts
+                                    <tbody>
+                                        <tr data-is-current-team="0" data-team-id="50124" data-rank="1">
+                                        <td class="table_team-name">
+                                            <a href="/uefachampionsleague/season=2019/clubs/club=50124/index.html" class="table_team-name_block" title="Atlético">
+                                            <span class="club-logo team_50124" style="background-image:url(../templates/static/img/times/atlMadri-logo.png)" title="SSC Napoli">
+                                            <span class="team-code">NAP
+                                            <span class="team-name">SSC Napoli
+                                        <td class="table_team-played js-played">5
+                                                                                                                              <td class="table_team-points js-points">9
+                                        <tr data-is-current-team="0" data-team-id="52758" data-rank="2">
+                                        <td class="table_team-name">
+                                            <a href="/uefachampionsleague/season=2019/clubs/club=52758/index.html" class="table_team-name_block" title="Paris Saint-Germain">
+                                            <span class="club-logo team_52758" style="background-image:url('https://img.uefa.com/imgml/TP/teams/logos/140X140/52758.png')" title="Paris Saint-Germain">
+                                            <span class="team-code">PSG
+                                            <span class="team-name">Paris Saint-Germain
+                                        <td class="table_team-played js-played">5
+                                                                                                                              <td class="table_team-points js-points">8
+                                        <tr data-is-current-team="0" data-team-id="50043" data-rank="3">
+                                        <td class="table_team-name">
+                                            <a href="/uefachampionsleague/season=2019/clubs/club=50043/index.html" class="table_team-name_block" title="Liverpool">
+                                            <span class="club-logo team_50043" style="background-image:url('https://img.uefa.com/imgml/TP/teams/logos/140X140/50043.png')" title="Liverpool FC">
+                                            <span class="team-code">LIV
+                                            <span class="team-name">Liverpool FC
+                                        <td class="table_team-played js-played">5
+                                                                                                                              <td class="table_team-points js-points">6
+                                        <tr data-is-current-team="0" data-team-id="50023" data-rank="4">
+                                            <td class="table_team-name">
+                                                <a href="/uefachampionsleague/season=2019/clubs/club=50023/index.html" class="table_team-name_block" title="Crvena zvezda">
+                                                <span class="club-logo team_50023" style="background-image:url('https://img.uefa.com/imgml/TP/teams/logos/140X140/50023.png')" title="FK Crvena zvezda">
+                                                <span class="team-code">CRV
+                                                <span class="team-name">FK Crvena zvezda
+                                            <td class="table_team-played js-played">5
+                                                                                                                              <td class="table_team-points js-points">4                        
+                        
+                        <div class="col-md-3">
+                            <p class="group-name js-group-name">Grupo D
+                                <table class="table table--standings grupos" data-group="2006091">
+                                    <thead>
+                                        <tr>
+                                            <th class="table_team-name">
+                                            <th class="table_team-played" title="Jogos">J
+                                                                                                                  <th class="table_team-points" title="Pontos">Pts
+                                    <tbody>
+                                        <tr data-is-current-team="0" data-team-id="50124" data-rank="1">
+                                        <td class="table_team-name">
+                                            <a href="/uefachampionsleague/season=2019/clubs/club=50124/index.html" class="table_team-name_block" title="Porto">
+                                            <span class="club-logo team_50124" style="background-image:url(../templates/static/img/times/atlMadri-logo.png)" title="FC Porto">
+                                            <span class="team-code">POR
+                                            <span class="team-name">FC Porto
+                                        <td class="table_team-played js-played">5
+                                                                                                                              <td class="table_team-points js-points">9
+                                        <tr data-is-current-team="0" data-team-id="52758" data-rank="2">
+                                        <td class="table_team-name">
+                                            <a href="/uefachampionsleague/season=2019/clubs/club=52758/index.html" class="table_team-name_block" title="Schalke">
+                                            <span class="club-logo team_52758" style="background-image:url('https://img.uefa.com/imgml/TP/teams/logos/140X140/52758.png')" title="FC Schalke 04">
+                                            <span class="team-code">SCH
+                                            <span class="team-name">FC Schalke 04
+                                        <td class="table_team-played js-played">5
+                                                                                                                              <td class="table_team-points js-points">8
+                                        <tr data-is-current-team="0" data-team-id="50043" data-rank="3">
+                                        <td class="table_team-name">
+                                            <a href="/uefachampionsleague/season=2019/clubs/club=50043/index.html" class="table_team-name_block" title="Galatasaray">
+                                            <span class="club-logo team_50043" style="background-image:url('https://img.uefa.com/imgml/TP/teams/logos/140X140/50043.png')" title="Galatasaray AŞ">
+                                            <span class="team-code">GAL
+                                            <span class="team-name">Galatasaray AŞ
+                                        <td class="table_team-played js-played">5
+                                                                                                                              <td class="table_team-points js-points">6
+                                        <tr data-is-current-team="0" data-team-id="50023" data-rank="4">
+                                            <td class="table_team-name">
+                                                <a href="/uefachampionsleague/season=2019/clubs/club=50023/index.html" class="table_team-name_block" title="Lokomotiv Moskva">
+                                                <span class="club-logo team_50023" style="background-image:url('https://img.uefa.com/imgml/TP/teams/logos/140X140/50023.png')" title="FC Lokomotiv Moskva">
+                                                <span class="team-code">LMO
+                                                <span class="team-name">FC Lokomotiv Moskva
+                                            <td class="table_team-played js-played">5
+                                                                                                                            <td class="table_team-points js-points">4                            
     <!--Segunda Seção Fim-->
