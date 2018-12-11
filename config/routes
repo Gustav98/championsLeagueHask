@@ -4,3 +4,7 @@
 /robots.txt RobotsR GET
 
 / HomeR GET 
+
+/login               LogarR   GET
+
+/classificacao      ClassificaR   GET

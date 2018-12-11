@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title> This is the champions
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <meta charset= UTF-8>
+
+    <body id="LoginForm">
+        <div class="container">
+            <h1 class="form-heading">Faça seu login
+            <div class="login-form">
+                <div class="main-div">
+                    <div class="panel">
+                        <h2>Login
+                        <p>Por favor, digite seu E-mail e sua Senha
+                        <form id="Login">
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="inputEmail" placeholder="email@mail.com">
+                            <div class="form-group">
+                                <input type="password" class="form-control" id="inputPassword" placeholder="******">
+
+                            <div class="forgot">
+                                <a href="reset.html">Esqueceu sua senha?
+                                <button type="submit" class="btn btn-primary">Login
+                                
+        <div class="form-title"> OU
+        
+        <div class="container">
+            <h1 class="form-heading">Faça seu cadastro
+            <div class="login-form">
+                <div class="main-div">
+                    <div class="panel">
+                        <h2>Cadastro
+                        <p>Por favor, preencha os dados para fazer seu cadastro
+                        <form id="Login">
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="inputEmail" placeholder="email@mail.com">
+                            <div class="form-group">
+                                <input type="password" class="form-control" id="inputPassword" placeholder="******">
+                            
+                            <div class="form-group">
+                                <input type="password" class="form-control" id="inputPassword" placeholder="Confirme sua senha">
+                                
+                            
+                            <div class="custom-select" style="width:200px;">
+                                <select>
+                                    <option value="0">Selecione seu clube favorito:
+                                    <option value="1">AEK Athenas
+                                    <option value="2">Ajax
+                                    <option value="3">Atlético de Madrid
+                                    <option value="4">Barcelona
+                                    <option value="5">Bayern
+                                    <option value="6">Benfica
+                                    <option value="7">Club Brugge
+                                    <option value="8"> Crvena zvezda 
+                                    <option value="9">CSKA Moskva
+                                    <option value="10">Dortmund
+                                    <option value="11">Galatasaray
+                                    <option value="12">Hoffenheim
+                                    <option value="13">Internazionale
+                                    <option value="14">Juventus
+                                    <option value="15">Liverpool
+                                    <option value="16">Lokomotiv Moskva
+                                    <option value="17">Lyon
+                                    <option value="18">Man. City
+                                    <option value="19">Man. United
+                                    <option value="20">Monaco
+                                    <option value="22">Napoli
+                                    <option value="23">Paris
+                                    <option value="24">Plzeň
+                                    <option value="25">Porto
+                                    <option value="26">PSV
+                                    <option value="27">Real Madrid
+                                    <option value="28">Roma
+                                    <option value="29">Schalke
+                                    <option value="30">Shaktar Donetsk
+                                    <option value="31">Tottenham
+                                    <option value="32">Valencia
+                                    <option value="33">Young Boys
+                              
+
+                           
+                            <button type="submit" class="btn btn-primary">Login
+
+
