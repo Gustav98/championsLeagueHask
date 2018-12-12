@@ -1,0 +1,366 @@
+<div class="fundo-esc">
+
+<div class="container-fluid fundo">
+    <div class="row topo">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+            <a href=@{HomeR} class="link-logo">
+                <img src=@{StaticR img_uefa_logo_png} class="img-responsive">
+                
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+            <h1>Resultados dos Jogos
+    
+    <h2>Terça-feira, 11 de Dezembro de 2018
+
+    <div class="row">
+        <div class="col-6">
+            <table class="table-stripped">
+                <thead>
+                    <tr>
+                        <th>
+                            Grupo D
+                            <td>
+                                Arena AufShalke, Gelsenkirchen
+                        <th>
+                            <img src="static/img/times/shalke04-logo.png" class="club-logo">
+                        <th>
+                            Schalke
+                        <th>
+                            1
+                        <th class="versus">
+                            x
+                        <th>
+                            0
+                        <th>
+                            Lokomotiv Moskva
+                        <th>
+                            <img src="static/img/times/lokomotiv-logo.png" class="club-logo">
+            
+                <thead>
+                    <tr>
+                        <th>
+                            Grupo D
+                            <td>
+                                Ali Sami Yen Spor Kompleksi, Istambul
+                        <th>
+                            <img src="static/img/times/galatasaray-logo.png" class="club-logo">
+                        <th>
+                            Galatasaray
+                        <th>
+                            2
+                        <th class="versus">
+                            x
+                        <th>
+                            3
+                        <th>
+                            Porto
+                        <th>
+                            <img src="static/img/times/porto-logo.png" class="club-logo">
+            
+            <table class="table-stripped">    
+                <thead>
+                    <tr>
+                        <th>
+                            Grupo A
+                            <td>
+                                Stade Louis II, Mônaco
+                        <th>
+                            <img src="static/img/times/monaco-logo.png" class="club-logo">
+                        <th>
+                            Monaco
+                        <th>
+                            0
+                        <th class="versus">
+                            x
+                        <th>
+                            2
+                        <th>
+                            Dortmund
+                        <th>
+                            <img src="static/img/times/borussia-logo.png" class="club-logo">
+            
+                <thead>
+                    <tr>
+                        <th>
+                            Grupo A
+                            <td>
+                                Jan Breydelstadion, Bruges
+                        <th>
+                            <img src="static/img/times/brugge-logo.png" class="club-logo">
+                        <th>
+                            Club Brugge
+                        <th>
+                            0
+                        <th class="versus">
+                            x
+                        <th>
+                            0
+                        <th>
+                            Atlético
+                        <th>
+                            <img src="static/img/times/atlMadri-logo.png" class="club-logo">
+                            
+            <table class="table-stripped">    
+                <thead>
+                    <tr>
+                        <th>
+                            Grupo B
+                            <td>
+                                Stadio San Siro, Milão
+                        <th>
+                            <img src="static/img/times/inter-logo.png" class="club-logo">
+                        <th>
+                            Internazionale
+                        <th>
+                            1
+                        <th class="versus">
+                            x
+                        <th>
+                            1
+                        <th>
+                            PSV
+                        <th>
+                            <img src="static/img/times/psv-logo.png" class="club-logo">
+                            
+                <thead>
+                    <tr>
+                        <th>
+                            Grupo B
+                            <td>
+                                Camp Nou, Barcelona
+                        <th>
+                            <img src="static/img/times/barcelona-logo.png" class="club-logo">
+                        <th>
+                            Barcelona
+                        <th>
+                            1
+                        <th class="versus">
+                            x
+                        <th>
+                            1
+                        <th>
+                            Tottenham
+                        <th>
+                            <img src="static/img/times/tottenham-logo.png" class="club-logo">
+                            
+            <table class="table-stripped">    
+                <thead>
+                    <tr>
+                        <th>
+                            Grupo C
+                            <td>
+                                Stadion Rajko Mitić - Belgrado 
+                        <th>
+                            <img src="static/img/times/estrela-logo.png" class="club-logo">
+                        <th>
+                            Crvena zvezda
+                        <th>
+                            1
+                        <th class="versus">
+                            x
+                        <th>
+                            4
+                        <th>
+                            Paris
+                        <th>
+                            <img src="static/img/times/psg-logo.png" class="club-logo"> 
+                        
+                <thead>
+                    <tr>
+                        <th>
+                            Grupo C
+                            <td>
+                                Anfield, Liverpool 
+                        <th>
+                            <img src="static/img/times/liverpool-logo.png" class="club-logo">
+                        <th>
+                            Liverpool
+                        <th>
+                            1
+                        <th class="versus">
+                            x
+                        <th>
+                            0
+                        <th>
+                            Napoli
+                        <th>
+                            <img src="static/img/times/napoli-logo.png" class="club-logo">   
+                            
+                            
+    <h2>Quarta-feira, 12 de Dezembro de 2018
+
+    <div class="row">
+        <div class="col-6">
+            <table class="table-stripped">
+                <thead>
+                    <tr>
+                        <th>
+                            Grupo G 
+                            <td>
+                                Štruncovy Sady Stadion - Plzeň
+                        <th>
+                            <img src="static/img/times/pilsen-logo.png" class="club-logo">
+                        <th>
+                            Plzñ
+                        <th>
+                            2
+                        <th class="versus">
+                            x
+                        <th>
+                            1
+                        <th>
+                            Roma
+                        <th>
+                            <img src="static/img/times/roma-logo.png" class="club-logo"> 
+                            
+                <thead>
+                    <tr>
+                        <th>
+                            Grupo G 
+                            <td>
+                                Estadio Santiago Bernabéu, Madrid
+                        <th>
+                            <img src="static/img/times/real-logo.png" class="club-logo">
+                        <th>
+                            Real Madrid
+                        <th>
+                            0
+                        <th class="versus">
+                            x
+                        <th>
+                            3
+                        <th>
+                            CSKA Moskva
+                        <th>
+                            <img src="static/img/times/cska-logo.png" class="club-logo">    
+                            
+            <table class="table-stripped">
+                <thead>
+                    <tr>
+                        <th>
+                            Grupo E
+                            <td>
+                                Estádio do Sport Lisboa e Benfica, Lisboa
+                        <th>
+                            <img src="static/img/times/benfica-logo.png" class="club-logo">
+                        <th>
+                            Benfica
+                        <th>
+                            1
+                        <th class="versus">
+                            x
+                        <th>
+                            0
+                        <th>
+                            AEK
+                        <th>
+                            <img src="static/img/times/aek-logo.png" class="club-logo"> 
+                            
+                <thead>
+                    <tr>
+                        <th>
+                            Grupo E
+                            <td>
+                                Johan Cruijff ArenA, Amesterdão
+                        <th>
+                            <img src="static/img/times/ajax-logo.png" class="club-logo">
+                        <th>
+                            Ajax
+                        <th>
+                            3
+                        <th class="versus">
+                            x
+                        <th>
+                            3
+                        <th>
+                            Bayern
+                        <th>
+                            <img src="static/img/times/bayern-logo.png" class="club-logo">   
+                            
+            <table class="table-stripped">
+                <thead>
+                    <tr>
+                        <th>
+                            Grupo F
+                            <td>
+                                City of Manchester Stadium, Manchester
+                        <th>
+                            <img src="static/img/times/city-logo.png" class="club-logo">
+                        <th>
+                            Man. City
+                        <th>
+                            2
+                        <th class="versus">
+                            x
+                        <th>
+                            1
+                        <th>
+                            Hoffenheim
+                        <th>
+                            <img src="static/img/times/hoffenheim.png" class="club-logo"> 
+                            
+                <thead>
+                    <tr>
+                        <th>
+                            Grupo F
+                            <td>
+                                NSK Olimpiyskyi, Kiev
+                        <th>
+                            <img src="static/img/times/shaktar-logo.png" class="club-logo">
+                        <th>
+                            Shakhtar Donetsk
+                        <th>
+                            1
+                        <th class="versus">
+                            x
+                        <th>
+                            1
+                        <th>
+                            Lyon
+                        <th>
+                            <img src="static/img/times/lyon-logo.png" class="club-logo">    
+                            
+            <table class="table-stripped">
+                <thead>
+                    <tr>
+                        <th>
+                            Grupo H
+                            <td>
+                                Estadi de Mestalla, Valência
+                        <th>
+                            <img src="static/img/times/valencia-logo.png" class="club-logo">
+                        <th>
+                            Valencia
+                        <th>
+                            2
+                        <th class="versus">
+                            x
+                        <th>
+                            1
+                        <th>
+                            Man. United
+                        <th>
+                            <img src="static/img/times/united-logo.png" class="club-logo">  
+                            
+                <thead>
+                    <tr>
+                        <th>
+                            Grupo H
+                            <td>
+                                Stade de Suisse, Berna
+                        <th>
+                            <img src="static/img/times/youngboys-logo.png" class="club-logo">
+                        <th>
+                            Young Boys
+                        <th>
+                            2
+                        <th class="versus">
+                            x
+                        <th>
+                            1
+                        <th>
+                            Juventus
+                        <th>
+                            <img src="static/img/times/juve-logo.png" class="club-logo">            
+                
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+        

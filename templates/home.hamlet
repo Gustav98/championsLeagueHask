@@ -30,13 +30,13 @@
                                 <li class="nav-item active">
                                     <a class="nav-link" href="#">Home <span class="sr-only">(current)
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Jogos
+                                    <a class="nav-link" href=@{JogosR}>Jogos
                                     
                                 <li class="nav-item">
                                     <a class="nav-link" href=@{ClassificaR}>Classificação
                                     
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Estatísticas
+                                    <a class="nav-link" href=@{StatsR}>Estatísticas
                                 
                             <form class="form-inline mt-2 mt-md-0 btn-style">
                                 <a class="btn btn-primary btn-lg" href=@{LogarR}> Cadastre-se

@@ -1,1 +1,30 @@
+Usuario
+	nome		Text
+	email		Text
+	senha		Text
+	deriving Show
 
+Grupo json
+	nome		Text
+	membros		Int
+	deriving Show
+
+ParticipaEm json
+	grupoid		GrupoId
+	clubeid		ClubeId
+	deriving Show
+
+Clube json
+	nome		Text
+	pais		Text
+	deriving Show
+
+JogaEm json
+	clubeid 	ClubeId
+	jogadorid	JogadorId
+	deriving Show
+
+Jogador json
+	nome		Text
+	camisa		Int
+	deriving Show
