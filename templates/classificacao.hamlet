@@ -12,115 +12,221 @@
         
         <meta charset= UTF-8>
 
-    <body>
+    <body class="bg-3">
     
-        <div class="container-fluid bg-3">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-md-8">
-                    <h1 class="section--title"> Classificação
+                    <h1 class="section--title"> Clubes
         
-                    <table class="table table-hover table-striped">
-                        <thead>
-                            <thead class="text-white">
-                                <tr>
-                                    <th class="table_team-name">Grupo A
-                    
-                                    <th class="table_team-played">
-                                        <span class="label--big">Jogos
-                                        <span class="label--small">J
-                                    
-                    
-                                    <th class="table_team-won">
-                                        <span class="label--big">Vitórias
-                                        <span class="label--small">V
-                                    
-                    
-                                    <th class="table_team-drawn">
-                                        <span class="label--big">Empates
-                                        <span class="label--small">X
-                                    
-                    
-                                    <th class="table_team-lost">
-                                        <span class="label--big">Derrotas
-                                        <span class="label--small">D
-                                    
-                    
-                                    <th class="table_team-for">
-                                        <span class="label--big">Marcados
-                                    
-                    
-                                    <th class="table_team-against">
-                                        <span class="label--big">Sofridos
-                                    
-                    
-                                    <th class="table_team-goal-diff">
-                                        Saldo de gols
-                                    
-                    
-                                    <th class="table_team-points">
-                                        <span class="label--big">Pontos
-                                        <span class="label--small">Pts
-                        <tbody class="table-active">
-                            <tr>
-                                <th scope="row">
-                                    <span class="club-logo team_50124" style="background-image:url('https://img.uefa.com/imgml/TP/teams/logos/140X140/50124.png')"
-                                        title="Club Atlético de Madrid">
-                                    <span class="team-code">ATL
+                    <div class="teams-overview_group">
+                        <fieldset>
+                            <legend>Oitavas-de-final</legend>
+                            <div class="teams-overview_teams-wrapper">
+                                <div class="team team-is-club">
+                                    <img class="club-logo times img-fluid team_1652" src=" static/img/times/ajax-logo.png" title="Ajax">
                                     <span class="team-name">
-                                        Club Atlético de Madrid
-                                    <td>5
-                                    <td>4
-                                    <td>0
-                                    <td>1
-                                    <td>9
-                                    <td>6
-                                    <td>3
-                                    <td class="pts">12
-                            
-                            <tr>
-                                <th scope="row">
-                                    <span class="club-logo team_52758" style="background-image:url('https://img.uefa.com/imgml/TP/teams/logos/140X140/52758.png')"
-                                        title="Borussia Dortmund">
-                                    <span class="team-code">BVB
-                                    <span class="team-name">
-                                        Borussia Dortmund
-                                    <td>5
-                                    <td>3
-                                    <td>1
-                                    <td>1
-                                    <td>8
-                                    <td>2
-                                    <td>6
-                                    <td class="pts">10
-                            <tr>
-                                <th scope="row">
-                                    <span class="club-logo team_50043" style="background-image:url('https://img.uefa.com/imgml/TP/teams/logos/140X140/50043.png')"
-                                        title="Club Brugge">
-                                    <span class="team-code">BRU
-                                    <span class="team-name">
-                                        Club Brugge
-                                    <td>5
-                                    <td>1
-                                    <td>2
-                                    <td>2
-                                    <td>6
-                                    <td>5
-                                    <td>1
-                                    <td class="pts">1
-                            
-                            <tr>
-                                <th scope="row">
-                                    <span class="club-logo team_50023" style="background-image:url('https://img.uefa.com/imgml/TP/teams/logos/140X140/50023.png')"
-                                        title="AS Monaco FC">
-                                    <span class="team-code">MON
-                                    <span class="team-name">
-                                        AS Monaco FC
-                                    <td>5
-                                    <td>0
-                                    <td>1
-                                    <td>4
-                                    <td>2
-                                    <td>12
-                                    <td>-10
-                                    <td class="pts">1
+                                        Ajax
+                                    <br>(NED)
 
+                            <div class="team team-is-club">
+                                <img class="club-logo times img-fluid team_1652" src=" static/img/times/atlMadri-logo.png" title="Atletico">
+                                <span class="team-name">
+                                    Atletico
+                                <br>(ESP)
+                                    
+                            <div class="team team-is-club">
+                                <img class="club-logo times img-fluid team_1652" src=" static/img/times/barcelona-logo.png" title="Barcelona">
+                                <span class="team-name">
+                                    Barcelona
+                                <br>(ESP)
+                                    
+                            <div class="team team-is-club">
+                                <img class="club-logo times img-fluid team_1652" src=" static/img/times/bayern-logo.png" title="Bayern">
+                                <span class="team-name">
+                                    Bayern
+                                <br>(ALE)
+                                    
+                            <div class="team team-is-club">
+                                <img class="club-logo times img-fluid team_1652" src=" static/img/times/borussia-logo.png" title="Dortmund">
+                                <span class="team-name">
+                                    Dortmund
+                                <br>(ALE)
+                                
+                            <div class="team team-is-club">
+                                <img class="club-logo times img-fluid team_1652" src=" static/img/times/juve-logo.png" title="Juventus">
+                                <span class="team-name">
+                                    Juventus
+                                <br>(ITA)
+                                
+                            
+                            <div class="team team-is-club">
+                                <img class="club-logo times img-fluid team_1652" src=" static/img/times/liverpool-logo.png" title="Liverpool">
+                                <span class="team-name">
+                                    Liverpool
+                                <br>(ING)
+                                
+                            
+                            <div class="team team-is-club">
+                                <img class="club-logo times img-fluid team_1652" src=" static/img/times/lyon-logo.png" title="Lyon">
+                                <span class="team-name">
+                                    Lyon
+                                <br>(FRA)
+                                
+                            <div class="team team-is-club">
+                                <img class="club-logo times img-fluid team_1652" src=" static/img/times/city-logo.png" title="Man. City">
+                                <span class="team-name">
+                                    Man. City
+                                <br>(ING)
+                                
+                                
+                                
+                            <div class="team team-is-club">
+                                <img class="club-logo times img-fluid team_1652" src=" static/img/times/united-logo.png" title="Man. United">
+                                <span class="team-name">
+                                    Man. United
+                                <br>(ING)
+                                
+                            
+                            <div class="team team-is-club">
+                                <img class="club-logo times img-fluid team_1652" src=" static/img/times/psg-logo.png" title="Paris">
+                                <span class="team-name">
+                                    Paris
+                                <br>(FRA)
+                                
+                                
+                            <div class="team team-is-club">
+                                <img class="club-logo times img-fluid team_1652" src=" static/img/times/porto-logo.png" title="Porto">
+                                <span class="team-name">
+                                    Porto
+                                <br>(POR)
+                                
+                                
+                            <div class="team team-is-club">
+                                <img class="club-logo times img-fluid team_1652" src=" static/img/times/real-logo.png" title="Real Madrid">
+                                <span class="team-name">
+                                    Real Madrid
+                                <br>(ESP)
+                            
+                            <div class="team team-is-club">
+                                <img class="club-logo times img-fluid team_1652" src=" static/img/times/roma-logo.png" title="Roma">
+                                <span class="team-name">
+                                    Roma
+                                <br>(ITA)
+                            
+                            <div class="team team-is-club">
+                                <img class="club-logo times img-fluid team_1652" src=" static/img/times/shalke04-logo.png" title="Schalke 04">
+                                <span class="team-name">
+                                    Schalke
+                                <br>(ALE)
+
+                            <div class="team team-is-club">
+                                <img class="club-logo times img-fluid team_1652" src=" static/img/times/tottenham-logo.png" title="Tottenham">
+                                <span class="team-name">
+                                    Tottenham
+                                <br>(ING)
+                            
+                            
+                            
+                            
+                            
+                            
+                            <legend>Grupos</legend>
+                                <div class="teams-overview_teams-wrapper">
+                                    <div class="team team-is-club">
+                                        <img class="club-logo times img-fluid team_1652" src=" static/img/times/aek-logo.png" title="AEK">
+                                        <span class="team-name">
+                                            AEK
+                                        <br>(GRE)
+                                
+                                    <div class="team team-is-club">
+                                        <img class="club-logo times img-fluid team_1652" src=" static/img/times/benfica-logo.png" title="Benfica">
+                                        <span class="team-name">
+                                            Benfica
+                                        <br>(POR)
+                                    
+                                    <div class="team team-is-club">
+                                        <img class="club-logo times img-fluid team_1652" src=" static/img/times/brugge-logo.png" title="Club Brugge">
+                                        <span class="team-name">
+                                            Club Brugge
+                                        <br>(BEL)
+                                        
+                                    <div class="team team-is-club">
+                                        <img class="club-logo times img-fluid team_1652" src=" static/img/times/estrela-logo.png" title="Crvena Zvezda">
+                                        <span class="team-name">
+                                            Crvena Zvezda
+                                        <br>(SER)
+                                        
+                                    <div class="team team-is-club">
+                                        <img class="club-logo times img-fluid team_1652" src=" static/img/times/cska-logo.png" title="CSKA Moskva">
+                                        <span class="team-name">
+                                            CSKA Moskva
+                                        <br>(RUS)
+                                        
+                                    <div class="team team-is-club">
+                                        <img class="club-logo times img-fluid team_1652" src=" static/img/times/galatasaray-logo.png" title="Galatasaray">
+                                        <span class="team-name">
+                                            Galatasaray
+                                        <br>(TUR)
+                                        
+                                    <div class="team team-is-club">
+                                        <img class="club-logo times img-fluid team_1652" src=" static/img/times/hoffenheim.png" title="Hoffenheim">
+                                        <span class="team-name">
+                                            Hoffenheim
+                                        <br>(ALE)
+                                         
+                                    <div class="team team-is-club">
+                                        <img class="club-logo times img-fluid team_1652" src=" static/img/times/inter-logo.png" title="Internazionale">
+                                        <span class="team-name">
+                                            Internazionale
+                                        <br>(ITA)
+                                        
+                                    <div class="team team-is-club">
+                                        <img class="club-logo times img-fluid team_1652" src=" static/img/times/lokomotiv-logo.png" title="Lokomotiv Moskva">
+                                        <span class="team-name">
+                                            Lokomotiv Moskva
+                                        <br>(RUS)
+                                        
+                                    <div class="team team-is-club">
+                                        <img class="club-logo times img-fluid team_1652" src=" static/img/times/monaco-logo.png" title="Monaco">
+                                        <span class="team-name">
+                                            Monaco
+                                        <br>(FRA)
+                                        
+                                    <div class="team team-is-club">
+                                        <img class="club-logo times img-fluid team_1652" src=" static/img/times/napoli-logo.png" title="Napoli">
+                                        <span class="team-name">
+                                            Napoli
+                                        <br>(ITA)
+                                        
+                                    <div class="team team-is-club">
+                                        <img class="club-logo times img-fluid team_1652" src=" static/img/times/estrela-logo.png" title="Plzeñ">
+                                        <span class="team-name">
+                                            Plzeñ
+                                        <br>(CZE)
+                                        
+                                    <div class="team team-is-club">
+                                        <img class="club-logo times img-fluid team_1652" src=" static/img/times/psv-logo.png" title="PSV">
+                                        <span class="team-name">
+                                            PSV
+                                        <br>(NED)
+                                        
+                                    <div class="team team-is-club">
+                                        <img class="club-logo times img-fluid team_1652" src=" static/img/times/shaktar-logo.png" title="Shakhtar Donetsk">
+                                        <span class="team-name">
+                                            Shakhtar Donetsk
+                                        <br>(UKR)
+                                        
+                                    <div class="team team-is-club">
+                                        <img class="club-logo times img-fluid team_1652" src=" static/img/times/valencia-logo.png" title="Valencia">
+                                        <span class="team-name">
+                                            Valencia
+                                        <br>(ESP)
+                                        
+                                    <div class="team team-is-club">
+                                        <img class="club-logo times img-fluid team_1652" src=" static/img/times/youngboys-logo.png" title="Young Boys">
+                                        <span class="team-name">
+                                            Young Boys
+                                        <br>(SUI)
+                                        
+                                    

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title> This is the champions
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <meta charset= UTF-8>
+
+    <body id="LoginForm">
+        
+    
+        <div class="container">
+            <h1 class="form-heading">Faça seu login
+            <div class="login-form">
+                <div class="main-div">
+                    <div class="panel">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        NOME
+                                    <th>
+                                        E-MAIL
+                                    <th>
+                                        Apagar?
+                            <tbody>
+                                $forall (Entity usrid usuario) <- usuarios
+                                    <tr>
+                                        <td>
+                                            #{usuarioNome usuario}
+                                        <td>
+                                            #{usuarioEmail usuario}
+                                        <td>
+                                            <form action=@{ApagarR usrid} method=post>
+                                                <input type="submit" value="X">
+                                
+        
+
+

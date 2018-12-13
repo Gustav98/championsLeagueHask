@@ -5,8 +5,8 @@ Usuario
 	deriving Show
 
 Grupo json
-	nome		Text
 	membros		Int
+	clube		Text
 	deriving Show
 
 ParticipaEm json

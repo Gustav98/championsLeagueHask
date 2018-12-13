@@ -12,6 +12,31 @@ h1.section--title {
 .table-info, .table-info>td, .table-info>th {
     background-color: #191970;
 }
+.club-logo{
+    width: 48px;
+    height: 48px;
+    
+}
+
+.team-name {
+   
+    transform: translate(-50%,0);
+}
+
+.team {
+    display: inline-block;
+    text-align: center;
+    padding: 30px;
+    vertical-align: top;
+    font-size: 16px;
+    min-height: 124px;
+}
+
+legend{
+    font-size: 27px;
+    padding-bottom: 16px;
+    color:#fff;
+}
 
 th.table_team-name {
     padding: 8px;
@@ -35,7 +60,7 @@ table{
 .bg-3{
     background-image: url(static/img/uefa-champions-league-rebranding-2018-2021-7.jpg);
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-size:cover;
     color:#FFF;
 }

@@ -24,6 +24,31 @@ getLoginR = do
         $(whamletFile "templates/login.hamlet")
         toWidget $(luciusFile "templates/login.lucius")
 
+postLoginR :: Handler Html 
+postLoginR = do 
+    ((res,_),_) <- runFormPost formLogin
+    case res of 
+        FormSuccess ("admin@admin.com","admin1234") -> do 
+            setSession "_USR" (pack $ show $ Usuario "admin" "admin@admin.com" "")
+            redirect AdminR
+        FormSuccess (email,senha) -> do
+            logado <- runDB $ selectFirst [UsuarioEmail ==. email,
+                                          UsuarioSenha ==. senha] []
+            case logado of
+                Just (Entity usrid usuario) -> do 
+                    setSession "_USR" (pack $ show usuario)
+                    setMessage [shamlet|
+                        <h1>
+                            Usuario logado
+                    |]
+                    redirect HomeR
+                Nothing -> do 
+                    setMessage [shamlet|
+                        <h1>
+                            Usuario e senha n encontrados!
+                    |]
+                    redirect LoginR
+        _ -> redirect LoginR
 
         
 postLogoutR :: Handler Html

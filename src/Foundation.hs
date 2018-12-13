@@ -20,14 +20,15 @@ data App = App
     , appLogger      :: Logger
     }
 
+
+
 mkYesodData "App" $(parseRoutesFile "config/routes")
 
 type Form a = Html -> MForm Handler (FormResult a, Widget)
 
 instance Yesod App where
     makeLogger = return . appLogger
-    authRoute _ = Just LoginR
-
+    
 
 instance YesodPersist App where
     type YesodPersistBackend App = SqlBackend
@@ -40,3 +41,4 @@ instance RenderMessage App FormMessage where
 
 instance HasHttpManager App where
     getHttpManager = appHttpManager
+

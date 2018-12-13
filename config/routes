@@ -6,7 +6,7 @@
 /  HomeR                            GET 
 
 /usuario             UsuarioR GET POST
-/login               LoginR   GET
+/login               LoginR   GET POST
 /logout              LogoutR  POST
 
 
@@ -15,3 +15,6 @@
 /jogos              JogosR        GET
 
 /estatisticas       StatsR        GET
+
+/admin                    AdminR   GET 
+/admin/#UsuarioId/apagar  ApagarR  POST

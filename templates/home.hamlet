@@ -33,7 +33,7 @@
                                     <a class="nav-link" href=@{JogosR}>Jogos
                                     
                                 <li class="nav-item">
-                                    <a class="nav-link" href=@{ClassificaR}>Classificação
+                                    <a class="nav-link" href=@{ClassificaR}>Clubes
                                     
                                 <li class="nav-item">
                                     <a class="nav-link" href=@{StatsR}>Estatísticas
@@ -68,7 +68,7 @@
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-left">
                                 <h4>Jogos
-                                <p class="mb-0">An example of where you can put an image of a project, or anything else, along with a description.
+                                <p class="mb-0">Veja as ultimas partidas do campeonato
                                 <hr class="d-none d-lg-block mb-0 ml-0">
               
             
@@ -79,7 +79,7 @@
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-left">
                                 <h4>Estatísticas
-                                <p class="mb-0">An example of where you can put an image of a project, or anything else, along with a description.
+                                <p class="mb-0">Veja as estatísticas do campeonato
                                 <hr class="d-none d-lg-block mb-0 ml-0">
             
                 <div class="col-lg-4">
@@ -95,8 +95,7 @@
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-left">
                                 <h4>Classificação
-                                <p class="mb-0">An example of where you can put an image of a project, or anything else, along with a description.
-                                <hr class="d-none d-lg-block mb-0 ml-0">
+                                <p class="mb-0">Confira a classificação dos grupos e quem passou para as oitavas
 
     <!--Fim da Primeira Seção-->
                     
