@@ -6,6 +6,10 @@
         <meta charset= UTF-8>
 
     <body id="LoginForm">
+        $maybe mensa <- msg
+            <div class="alert alert-primary">
+                #{mensa}
+    
         <div class="container">
             <h1 class="form-heading">Faça seu login
             <div class="login-form">

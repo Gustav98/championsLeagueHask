@@ -5,8 +5,9 @@
 
 /  HomeR                            GET 
 
-/usuario             UsuarioR GET 
-/login               LoginR   GET 
+/usuario             UsuarioR GET POST
+/login               LoginR   GET
+/logout              LogoutR  POST
 
 
 /classificacao      ClassificaR   GET

@@ -23,3 +23,10 @@ getLoginR = do
         addStylesheet $ StaticR css_bootstrap_css
         $(whamletFile "templates/login.hamlet")
         toWidget $(luciusFile "templates/login.lucius")
+
+
+        
+postLogoutR :: Handler Html
+postLogoutR = do 
+    deleteSession "_USR"
+    redirect HomeR

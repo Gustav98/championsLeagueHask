@@ -30,3 +30,22 @@ getUsuarioR = do
         toWidget $(luciusFile "templates/usuario.lucius")
 
         
+postUsuarioR :: Handler Html
+postUsuarioR = do 
+    ((res,_),_) <- runFormPost formUsuario
+    case res of
+        FormSuccess (usr, passwordC) -> do 
+            if (usuarioSenha usr) == passwordC then do
+                runDB $ insert usr 
+                setMessage [shamlet|
+                    <h1>
+                        Usuario cadastrado!
+                |]
+                redirect HomeR
+            else do 
+                setMessage [shamlet|
+                    <h1>
+                        Senhas não conferem
+                |]
+                redirect UsuarioR
+        _ -> redirect UsuarioR
