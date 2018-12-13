@@ -39,7 +39,7 @@
                                     <a class="nav-link" href=@{StatsR}>Estatísticas
                                 
                             <form class="form-inline mt-2 mt-md-0 btn-style">
-                                <a class="btn btn-primary btn-lg" href=@{LoginR}> Cadastre-se
+                                <a class="btn btn-primary btn-lg" href=@{UsuarioR}> Cadastre-se
                                 
                                 <a class="btn btn-primary btn-lg" href=@{LoginR}> Login
                 

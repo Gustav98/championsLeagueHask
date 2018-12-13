@@ -12,115 +12,57 @@
         
         <meta charset= UTF-8>
 
-    <body>
+    <body id="LoginForm">
     
-        <div class="container-fluid bg-3">
-            <div class="row">
-                <div class="col-md-8">
-                    <h1 class="section--title"> Classificação
         
-                    <table class="table table-hover table-striped">
-                        <thead>
-                            <thead class="text-white">
-                                <tr>
-                                    <th class="table_team-name">Grupo A
-                    
-                                    <th class="table_team-played">
-                                        <span class="label--big">Jogos
-                                        <span class="label--small">J
-                                    
-                    
-                                    <th class="table_team-won">
-                                        <span class="label--big">Vitórias
-                                        <span class="label--small">V
-                                    
-                    
-                                    <th class="table_team-drawn">
-                                        <span class="label--big">Empates
-                                        <span class="label--small">X
-                                    
-                    
-                                    <th class="table_team-lost">
-                                        <span class="label--big">Derrotas
-                                        <span class="label--small">D
-                                    
-                    
-                                    <th class="table_team-for">
-                                        <span class="label--big">Marcados
-                                    
-                    
-                                    <th class="table_team-against">
-                                        <span class="label--big">Sofridos
-                                    
-                    
-                                    <th class="table_team-goal-diff">
-                                        Saldo de gols
-                                    
-                    
-                                    <th class="table_team-points">
-                                        <span class="label--big">Pontos
-                                        <span class="label--small">Pts
-                        <tbody class="table-active">
-                            <tr>
-                                <th scope="row">
-                                    <span class="club-logo team_50124" style="background-image:url('https://img.uefa.com/imgml/TP/teams/logos/140X140/50124.png')"
-                                        title="Club Atlético de Madrid">
-                                    <span class="team-code">ATL
-                                    <span class="team-name">
-                                        Club Atlético de Madrid
-                                    <td>5
-                                    <td>4
-                                    <td>0
-                                    <td>1
-                                    <td>9
-                                    <td>6
-                                    <td>3
-                                    <td class="pts">12
+        <div class="container">
+            <h1 class="form-heading">Faça seu cadastro
+            <div class="login-form">
+                <div class="main-div">
+                    <div class="panel">
+                        <h2>Cadastro
+                        <p>Por favor, preencha os dados para fazer seu cadastro
+                        <form id="Login">
+                            <form action=@{UsuarioR} method=post enctype=#{enctype}>
+                                ^{widgetUsu}
+                                <button type="submit" class="btn btn-primary" value="Cadastrar">Cadastrar
+                                
                             
-                            <tr>
-                                <th scope="row">
-                                    <span class="club-logo team_52758" style="background-image:url('https://img.uefa.com/imgml/TP/teams/logos/140X140/52758.png')"
-                                        title="Borussia Dortmund">
-                                    <span class="team-code">BVB
-                                    <span class="team-name">
-                                        Borussia Dortmund
-                                    <td>5
-                                    <td>3
-                                    <td>1
-                                    <td>1
-                                    <td>8
-                                    <td>2
-                                    <td>6
-                                    <td class="pts">10
-                            <tr>
-                                <th scope="row">
-                                    <span class="club-logo team_50043" style="background-image:url('https://img.uefa.com/imgml/TP/teams/logos/140X140/50043.png')"
-                                        title="Club Brugge">
-                                    <span class="team-code">BRU
-                                    <span class="team-name">
-                                        Club Brugge
-                                    <td>5
-                                    <td>1
-                                    <td>2
-                                    <td>2
-                                    <td>6
-                                    <td>5
-                                    <td>1
-                                    <td class="pts">1
-                            
-                            <tr>
-                                <th scope="row">
-                                    <span class="club-logo team_50023" style="background-image:url('https://img.uefa.com/imgml/TP/teams/logos/140X140/50023.png')"
-                                        title="AS Monaco FC">
-                                    <span class="team-code">MON
-                                    <span class="team-name">
-                                        AS Monaco FC
-                                    <td>5
-                                    <td>0
-                                    <td>1
-                                    <td>4
-                                    <td>2
-                                    <td>12
-                                    <td>-10
-                                    <td class="pts">1
+                            <!--<div class="custom-select" style="width:200px;">
+                                <select>
+                                    <option value="0">Selecione seu clube favorito:
+                                    <option value="1">AEK Athenas
+                                    <option value="2">Ajax
+                                    <option value="3">Atlético de Madrid
+                                    <option value="4">Barcelona
+                                    <option value="5">Bayern
+                                    <option value="6">Benfica
+                                    <option value="7">Club Brugge
+                                    <option value="8"> Crvena zvezda 
+                                    <option value="9">CSKA Moskva
+                                    <option value="10">Dortmund
+                                    <option value="11">Galatasaray
+                                    <option value="12">Hoffenheim
+                                    <option value="13">Internazionale
+                                    <option value="14">Juventus
+                                    <option value="15">Liverpool
+                                    <option value="16">Lokomotiv Moskva
+                                    <option value="17">Lyon
+                                    <option value="18">Man. City
+                                    <option value="19">Man. United
+                                    <option value="20">Monaco
+                                    <option value="22">Napoli
+                                    <option value="23">Paris
+                                    <option value="24">Plzeň
+                                    <option value="25">Porto
+                                    <option value="26">PSV
+                                    <option value="27">Real Madrid
+                                    <option value="28">Roma
+                                    <option value="29">Schalke
+                                    <option value="30">Shaktar Donetsk
+                                    <option value="31">Tottenham
+                                    <option value="32">Valencia
+                                    <option value="33">Young Boys
+                              
+                            <button type="submit" class="btn btn-primary">Cadastrar -->
 

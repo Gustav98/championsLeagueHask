@@ -24,8 +24,9 @@ getUsuarioR :: Handler Html
 getUsuarioR = do 
     (widgetUsu, enctype) <- generateFormPost formUsuario
     msg <- getMessage
-    defaultLayout $ do 
+    defaultLayout $ do
         addStylesheet $ StaticR css_bootstrap_css
         $(whamletFile "templates/usuario.hamlet")
+        toWidget $(luciusFile "templates/usuario.lucius")
 
         

@@ -10,7 +10,7 @@ import Network.HTTP.Types.Status
 
 import Text.Lucius
 import Text.Julius
-import Prelude (read)
+
 
 getJogosR :: Handler Html
 getJogosR = do
