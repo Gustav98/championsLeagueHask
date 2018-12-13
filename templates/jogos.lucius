@@ -8,17 +8,29 @@ body {
     height: 1000px;
 }
 
-
-.topo {
-    background-color: #d9d1ff;
-    height: auto;
-    color: #fff;
+img.link-logo.img-responsive {
+    width: 105px;
 }
 
 
+.topo {
+    height: 50vh;
+    color: #fff;
+    background-image: url(static/img/bola-uefa.jpg);
+    background-size: cover;
+}
+
+table.col-md-8 {
+    padding: 23px;
+    width: 75%;
+}
+
+.align {
+    float: left;
+}
+
 h1 {
     text-align: right;
-    color: blue;
     font-family: nfl font;
     
 }
@@ -40,4 +52,12 @@ th {
 .club-logo { 
     width: 32px; 
     height: 32px; 
+}
+
+.fundo {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1100px;
 }

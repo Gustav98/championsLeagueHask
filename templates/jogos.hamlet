@@ -2,18 +2,17 @@
 
 <div class="container-fluid fundo">
     <div class="row topo">
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-            <a href=@{HomeR} class="link-logo">
-                <img src=@{StaticR img_uefa_logo_png} class="img-responsive">
-                
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-            <h1>Resultados dos Jogos
+        <div class="col-md-10">
+            <div class="align">
+                <a href=@{HomeR}>
+                    <img class="link-logo" src=@{StaticR img_uefa_logo2_png} class="img-responsive">
+            <h1 class="text-center">Resultados dos Jogos
     
     <h2>Terça-feira, 11 de Dezembro de 2018
 
     <div class="row">
-        <div class="col-6">
-            <table class="table-stripped">
+        <div class="col-md-10">
+            <table class="col-md-8">
                 <thead>
                     <tr>
                         <th>
@@ -56,7 +55,7 @@
                         <th>
                             <img src="static/img/times/porto-logo.png" class="club-logo">
             
-            <table class="table-stripped">    
+            <table class="col-md-8">    
                 <thead>
                     <tr>
                         <th>
@@ -99,7 +98,7 @@
                         <th>
                             <img src="static/img/times/atlMadri-logo.png" class="club-logo">
                             
-            <table class="table-stripped">    
+            <table class="col-md-8">    
                 <thead>
                     <tr>
                         <th>
@@ -142,7 +141,7 @@
                         <th>
                             <img src="static/img/times/tottenham-logo.png" class="club-logo">
                             
-            <table class="table-stripped">    
+            <table class="col-md-8">    
                 <thead>
                     <tr>
                         <th>
@@ -189,8 +188,8 @@
     <h2>Quarta-feira, 12 de Dezembro de 2018
 
     <div class="row">
-        <div class="col-6">
-            <table class="table-stripped">
+        <div class="col-md-10">
+            <table class="col-md-8">
                 <thead>
                     <tr>
                         <th>
@@ -233,7 +232,7 @@
                         <th>
                             <img src="static/img/times/cska-logo.png" class="club-logo">    
                             
-            <table class="table-stripped">
+            <table class="col-md-8">
                 <thead>
                     <tr>
                         <th>
@@ -276,7 +275,7 @@
                         <th>
                             <img src="static/img/times/bayern-logo.png" class="club-logo">   
                             
-            <table class="table-stripped">
+            <table class="col-md-8">
                 <thead>
                     <tr>
                         <th>
@@ -319,7 +318,7 @@
                         <th>
                             <img src="static/img/times/lyon-logo.png" class="club-logo">    
                             
-            <table class="table-stripped">
+            <table class="col-md-8">
                 <thead>
                     <tr>
                         <th>

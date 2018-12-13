@@ -1,11 +1,11 @@
 /*Estatisticas gerais inicio*/
 
-.bg-3{
-    background-image: url(static/img/champions-league-logo.jpg);
+.bg-3 {
+    background-image: url(static/img/UEFA-trofeu.jpg);
     width: 100%;
+    background-size: cover;
     height: 100vh;
-    background-size:cover;
-    color:#FFF;
+    color: #FFF;
 }
 
 span.goals-quantity--number {
@@ -33,6 +33,7 @@ h5.stats-visualization--title {
 
 ul.goals-quantity {
     font-size: 21px;
+    text-align: center;
     font-weight: 700;
 }
 
